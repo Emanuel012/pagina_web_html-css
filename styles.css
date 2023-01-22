@@ -1,0 +1,238 @@
+header {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:rgb(177, 137, 29)
+    padding:0px;
+    padding-bottom: 5px; 
+    
+    min-width:5%;
+    min-height:5%;
+}
+
+.brand {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #1d1106;
+    color: #fff;
+    display: inline-block;
+}
+
+nav ul {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-family: 'PT Serif', serif;
+    margin: 0 20px;
+}
+
+nav a {
+    font-family: 'PT Serif', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box img {
+    width: 100%;
+}
+.body {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    background-color:white;
+    padding: 5px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.image {
+    width: 450px;
+    height: 450px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px;
+    margin-right: 10px;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.text {
+    width: 300px;
+    padding: 5px;
+    margin-left: -25px;
+    margin-right: -10px;
+    margin-top: -325px;
+}
+
+.contact-info {
+    font-family: 'PT Serif', serif;
+    background-color:white;
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #302400, #f5f5f5);
+    font-weight: bold;
+}
+footer { 
+    font-family: 'PT Serif', serif;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    font-family: 'PT Serif', serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    font-family: 'PT Serif', serif;
+    margin: 0 10px;
+}
+
+footer a {
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-decoration: none;
+}
+.footer-content {
+    font-family: 'PT Serif', serif;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+.Sobre {
+    padding: 20px;
+    text-align: center;
+}
+
+.Sobre h1 {
+    font-size:  32px;
+    margin-bottom:20px;
+    color: blue;
+}
+
+.Sobre p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    line-height: 1.5;
+    
+}
+
+.contact-section {
+    padding: 20px;
+}
+
+.contact-section h1 {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.map-container {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.box {
+    border: 1px solid #000; /* adiciona uma borda fina de 1px */
+    border-radius: 10px; /* adiciona bordas arredondadas com raio de 10px */
+    padding: 25px; /* adiciona um espaçamento interno de 10px */
+    font-family: 'PT Serif', serif;
+  }
+  
+.photo {
+    float: left;
+    width: 20%; /*define o tamanho das imagens */
+    padding: 35px; /* adiciona um espaçamento de 10px entre as imagens */
+    border-radius: 50px;
+}
+  
+.about-us {
+    font-family: 'PT Serif', serif;
+    text-align: center; /* centraliza o texto */
+    padding: 20px; /* adiciona um espaçamento interno de 20px */
+    font-size: large;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #000
+  } 
+
+.line {
+  border: none;
+  border-top: 1px solid #000; /* adiciona uma borda fina de 1px com cor preta */
+}
+
+
+
+
+
+
+
+
